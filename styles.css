@@ -463,6 +463,12 @@ h4{
     color: gold;
 }
 
+#computer-illustration{
+    
+    width: 90%;
+    
+}
+
 footer{
     flex: 1 1 auto;
 }
