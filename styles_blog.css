@@ -1,0 +1,54 @@
+article{
+    margin: 30px auto;
+}
+
+.blog-date{
+    font-size: smaller;
+    margin: 0 20px;
+}
+.blog-header{
+    display: flex;
+    justify-content:space-between;
+   
+}
+article h2{
+    margin-bottom: 0;
+    
+}
+
+article h2 a{
+    text-decoration: none;
+    
+}
+article h2 a:visited{
+    text-decoration: none;
+    color: black;
+    
+}
+
+article h5{
+    color: rgb(150, 127, 0);
+}
+
+.blog-img{
+    width: 200px;
+    float: left;
+    padding: 10px 10px 0 0;
+}
+
+@media only screen and (min-width: 1280px){
+    .blog-img{
+        width: 300px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .blog-img{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .blog-img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}

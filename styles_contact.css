@@ -1,0 +1,60 @@
+#contact-middle-area{
+    width: 90%;
+    min-height: 60vh;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: flex-start;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#contact-info{
+    font-size: 1em;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 30px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+#contact-info a{
+    color: rgb(150, 127, 0);
+}
+
+#map{
+    width: 90%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    #contact-middle-area{
+        text-align: center;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        
+        
+        
+    }
+
+    #contact-info{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        font-size: 13px;
+        padding-right: 0;
+    }
+    #map{
+        width: 288px;
+        max-width: 90%;
+        height: 216px;
+        margin-top: 20px;
+        padding: 0;
+    }
